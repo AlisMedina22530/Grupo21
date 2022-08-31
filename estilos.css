@@ -1,0 +1,134 @@
+/* Vamos a usar el SELECTOR h1 para asignarle a la
+PROPIEDAD color el VALOR blue y a la PROPIEDAD 
+font-size el VALOR 24px 
+
+body {background-color: rgba(214, 161, 161,0.7);}
+
+body {
+    background-image: url("mapa-mundial-del-fondo-oceanico_8d3398c1_1600x1067");
+    background-color: #cccccc;
+   }
+
+si queremos hacer un fondo de un color y que cambie a otro
+#myDIV {
+  width: 300px;
+  height: 200px;
+  background: red;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {background-color: blue;}
+}*/
+
+h1 {
+    color: #050f5e;
+    background-color: rgba(10, 247, 247, 0.5);
+    /*opacity: 0.5;*/
+    background-size: 150px;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    text-align:center;
+    font-size: 300%;     
+}
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*background-color: rgba(14, 235, 247, 0.5);*/
+    font-style: italic;
+    font-size: 18px;
+    text-align:center;
+}
+h3 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*background-color: rgba(14, 235, 247, 0.5);*/
+    font-style: italic;
+    font-size: 20px;
+    text-align:left;
+    padding: 10px 10px 20px 100px;
+}
+
+h4 {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    font-size: 18px;
+}
+ol {
+    padding: 10px 10px 20px 100px;
+    color:red;
+  }
+
+ /*ol li {
+    color: rgb(11, 6, 81);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    /*background: #b5f7f9;
+    padding: 5px;
+    margin-left: 35px;
+  }*/
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+
+  body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .button {
+    background-color: #06c7be;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;    
+  } 
+  .button:hover {
+    background-color: #0421fd; /* Blue */
+    color: white;
+  }
+  .btn-group .button {
+    background-color: #06c7be; /* Blue */
+    border: 1px solid #06c7be;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+  }
+  
+  .btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  .btn-group .button:hover {
+    background-color: #0421fd;
+  }
+ 
+  .text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+  }
