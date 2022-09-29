@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de pedido</title>
+    <link rel="stylesheet" href="pagina3.css">
+    <style>
+      html { 
+             background: #f6d466; 
+             background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Completa el formulario de pedido</h2>
+    
+    <div class="container">
+        <form action="mostrar_datos.html" target="_blank">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Nombre</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Nombre..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Apellido</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Apellido..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="direccion">Dirección</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="adress" name="adress" placeholder="Dirección..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="celular">Celular</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="celular" name="celular" placeholder="Celular..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="mail">Mail</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="mail" name="mail" placeholder="Mail..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="direccion">Artículo de su elección</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="direccion">Cantidad</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Cantidad..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="comentario" placeholder="Envianos un comentario.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+      </form>
+    </div>
+    
+    </body>
+    </html>
+
+</html>
